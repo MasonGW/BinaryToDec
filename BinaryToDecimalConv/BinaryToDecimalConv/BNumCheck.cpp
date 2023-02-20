@@ -7,8 +7,7 @@ using namespace std;
 
 bool numCheck(int num) {
 	vector<int>givenNum;
-	//345
-	//101101
+
 	int number = num; //temp holds the original num so we can alter it
 	int remainder; //remainder will hold the remaining value after finding the modulo of the given num
 	int iCount = 0; //iCount keeps track of the number of iterations it took to completely parse the provided number
@@ -39,5 +38,4 @@ number = 385
 30 -> 3
 3 -> 0 remainder 3
 3 is stored in givenNum's next position
-
 */
